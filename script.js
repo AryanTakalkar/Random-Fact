@@ -78,7 +78,7 @@ toggleBtn.addEventListener('click', () => {
 
 function updateStyles(isLightMode) {
     if (isLightMode) {
-        document.body.style.backgroundImage = 'url("sdsd/image.png")'; // Light background image
+        document.body.style.backgroundImage = 'url("light.png")'; // Light background image
         document.body.style.color = '#000000'; // Dark text color
         document.querySelector('.card').style.backgroundColor = '#ffffff'; // Light card background
         document.querySelector('.fact-box').style.backgroundColor = '#f9f9f9'; // Light fact box
