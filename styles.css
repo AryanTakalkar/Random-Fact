@@ -1,0 +1,100 @@
+body {
+    font-family: 'Press Start 2P', cursive; /* Game-like font */
+    background-color: #121212; 
+    background-image: url('./image.png');
+    color: #ffffff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-family: 'Press Start 2P', cursive; /* Game-like font */
+
+}
+
+.card {
+    background-color: #1e1e1e; /* Dark card background */
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.fact-box {
+    background-color: #2a2a2a; /* Darker fact box */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-family: 'Press Start 2P', cursive; /* Game-like font */
+
+}
+
+.fact-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-family: 'Press Start 2P', cursive; /* Game-like font */
+
+}
+
+.animated-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Press Start 2P', cursive; /* Game-like font */
+
+}
+
+.animated-btn:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    font-family: 'Press Start 2P', cursive; /* Game-like font */
+
+}
+
+.animated-btn:active {
+    transform: translateY(0);
+}
+
+.toggle-btn {
+    margin-top: 20px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.toggle-btn:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-2px);
+}
