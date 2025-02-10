@@ -43,6 +43,6 @@ Huge thanks to **Google Developer Group** for hosting the hackathon and inspirin
 
 ---
 
-🔗 **Follow me on GitHub**: [Your GitHub](https://github.com/AryanTakalkar)  
+🔗 **Follow me on GitHub**: [Aryan Takalkar](https://github.com/AryanTakalkar)  
 ✉️ **Let's Connect**: aryantakalkar1365@gmail.com
 
